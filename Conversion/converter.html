@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myFormat.css">
+    <title>Cups to ML Conversion</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Cups to ML Conversion</h1>
+
+    <form>
+        <label for="cupsInput"></label>
+        <input type="text" id="cupsInput" name="cupsInput" placeholder="cups value" required minlength="1" maxlength="10">
+        <br><br>
+        <label for="MLOutput"></label>
+        <input type="text" id="millilitersOutput" disabled>
+        <br>
+        <input type="button" value="Convert" id="convertButton">
+        <button type="reset">Reset</button>
+    </form>
+
+    <script src="converter.js"></script> 
+    </div>
+
+</body>
+</html>
